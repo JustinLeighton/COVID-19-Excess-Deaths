@@ -1,10 +1,3 @@
----
-output: 
-  html_document:
-    keep_md: true
-    self_contained: true
----
-
 # COVID-19 excess deaths analysis
 
 
