@@ -17,9 +17,9 @@ by week and state. The format changes a few times, requiring several
 separate data pulls, and some data wrangling to append all records
 together.
 
-The goal of this analysis is to see if we can parse out “excess deaths”
-and compare to the reported COVID-19 deaths in order to put to bed a
-conspiracy related to COVID deaths being exaggerated.
+The goal of this analysis is to see if we can parse out "excess deaths" 
+and compare to the reported COVID-19 deaths in order to put to settle 
+the debate around if COVID deaths were being exaggerated. 
 
 ```r
     df %>%
