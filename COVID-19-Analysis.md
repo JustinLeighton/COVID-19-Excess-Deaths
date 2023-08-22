@@ -32,7 +32,7 @@ the debate around if COVID deaths were being exaggerated.
            caption = 'Analysis by Justin Leighton')
 ```
 
-![](plots/figure-markdown_strict/plot1-1.png)
+![](plots/plot1-1.png)
 
 The cyclical nature of this chart shows the annual flu season in the US,
 which is most pronounced at the start of the year. Some flu seasons are
@@ -51,7 +51,7 @@ fairly extreme peaks.
            caption = 'Analysis by Justin Leighton')
 ```
 
-![](plots/figure-markdown_strict/plot2-1.png)
+![](plots/plot2-1.png)
 
 The year-over-year plot shows the breakdown of the cyclical nature of
 deaths in 2020 and the years following. Clearly COVID was not just a bad
@@ -75,7 +75,7 @@ flu season.
            caption = 'Analysis by Justin Leighton')
 ```
 
-![](plots/figure-markdown_strict/plot3-1.png)
+![](plots/plot3-1.png)
 
 The annual view helps to smooth out the seasonal trend. The increase in
 2020 onwards appears distinctly greater than the usual annual increase,
@@ -172,7 +172,7 @@ model to predict expected 2020+ deaths in the absence of COVID.
            caption = "Analysis by Justin Leighton") +
       geom_blank()
 
-![](plots/figure-markdown_strict/plot_fitted-1.png)
+![](plots/plot_fitted-1.png)
 
 Now that we can extrapolate a quantifiable figure for excess deaths,
 1.3M. As of the end of 2022, the CDC was reporting roughly 1.1M total
@@ -220,4 +220,4 @@ and starts a bit sooner.
            caption = "Justin Leighton 2023-04-15") +
       geom_blank()
 
-![](plots/figure-markdown_strict/plot_vax-1.png)
+![](plots/plot_vax-1.png)
