@@ -33,7 +33,7 @@ df %>%
        caption = 'Analysis by Justin Leighton')
 ```
 
-![](COVID-19-Analysis_files/figure-html/plot1-1.png)<!-- -->
+![](plots/plot1-1.png)<!-- -->
 
 The cyclical nature of this chart shows the annual flu season in the US, which is most pronounced at the start of the year. Some flu seasons are worse than others. Deaths also have a slight increasing trend which is presumably related to population growth. 2020 shows the start of some fairly extreme peaks.
 
@@ -49,7 +49,7 @@ df %>%
        caption = 'Analysis by Justin Leighton')
 ```
 
-![](COVID-19-Analysis_files/figure-html/plot2-1.png)<!-- -->
+![](plots/plot2-1.png)<!-- -->
 
 The year-over-year plot shows the breakdown of the cyclical nature of deaths in 2020 and the years following. Clearly COVID was not just a bad flu season.
 
@@ -72,7 +72,7 @@ df %>%
        caption = 'Analysis by Justin Leighton')
 ```
 
-![](COVID-19-Analysis_files/figure-html/plot3-1.png)<!-- -->
+![](plots/plot3-1.png)<!-- -->
 
 The annual view helps to smooth out the seasonal trend. The increase in 2020 onwards appears distinctly greater than the usual annual increase, which is at most 100k+ per year, and the gap between 2019 and 2022 is around 600k+. In order to properly quantify this we need to build a model to predict expected 2020+ deaths in the absence of COVID.
 
@@ -173,7 +173,7 @@ df_fit %>%
   geom_blank()
 ```
 
-![](COVID-19-Analysis_files/figure-html/plot_fitted-1.png)<!-- -->
+![](plots/plot_fitted-1.png)<!-- -->
 
 Now that we can extrapolate a quantifiable figure for excess deaths, 1.3M. As of the end of 2022, the CDC was reporting roughly 1.1M total deaths due to COVID. Contrary to the conspiracy theory, it appears as though the CDC has slightly under counted. I suspect that this is due to the still not-well-understood long-term effects of the disease.
 
@@ -217,7 +217,7 @@ df_fit %>%
   geom_blank()
 ```
 
-![](COVID-19-Analysis_files/figure-html/plot_vax-1.png)<!-- -->
+![](plots/plot_vax-1.png)<!-- -->
 
 
 
